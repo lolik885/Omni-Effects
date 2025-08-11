@@ -1,0 +1,17 @@
+[   
+    {
+        "file_path": "./dataset/test_images/ref_imgs/woman_dog.jpg",
+        "mask_path": "./dataset/test_images/mask_imgs/woman.jpg",
+        "text": ["Melt it"]
+    },
+    {
+        "file_path": "./dataset/test_images/ref_imgs/woman_dog.jpg",
+        "mask_path": "./dataset/test_images/mask_imgs/dog.jpg",
+        "text": ["Levitate it"]
+    },
+    {
+        "file_path": "./dataset/test_images/ref_imgs/coconut.jpg",
+        "mask_path": "./dataset/test_images/mask_imgs/coconut_left.jpg",
+        "text": ["Explode it"]
+    }
+]

@@ -1,0 +1,8 @@
+[   
+    {
+        "file_path": "./dataset/test_images/ref_imgs/woman_dog.jpg",
+        "mask_path1": "./dataset/test_images/mask_imgs/woman.jpg",
+        "mask_path2": "./dataset/test_images/mask_imgs/dog.jpg",
+        "text": ["Levitate it", "Melt it"]
+    }
+]

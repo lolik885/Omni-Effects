@@ -1,0 +1,16 @@
+[
+    {
+        "file_path": "./dataset/test_images/ref_imgs/ball_vase_pyramid.jpg",
+        "mask_path1": "./dataset/test_images/mask_imgs/ball.jpg",
+        "mask_path2": "./dataset/test_images/mask_imgs/vase.jpg",
+        "mask_path3": "./dataset/test_images/mask_imgs/pyramid.jpg",
+        "text": ["Melt it", "Explode it", "Levitate it"]
+    },
+    {
+        "file_path": "./dataset/test_images/girl_bear_background.jpg",
+        "mask_path1": "./dataset/test_images/mask_imgs/girl.jpg",
+        "mask_path2": "./dataset/test_images/mask_imgs/bear.jpg",
+        "mask_path3": "./dataset/test_images/mask_imgs/background.png",
+        "text": ["Levitate it", "Melt it", "Turn it into anime style."]
+    }
+]

@@ -1,0 +1,12 @@
+python scripts/inference_omnieffects.py \
+    --model_path "THUDM/CogVideoX-5b-I2V" \
+    --lora_path "checkpoints/singleVFX" \
+    --lora_name "lora_adapter" \
+    --output "output" \
+    --data_path dataset/test/test1.json \
+    --device_id 0 \
+    --cond_linear \
+    --num_cond 1 \
+    --mha_lora \
+    --num_experts 4 \
+    --top_k 1 \
