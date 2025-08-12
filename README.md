@@ -1,7 +1,7 @@
 # *Omni-Effects*: Unified and Spatially-Controllable Visual Effects Generation
 
 
-<!-- [![](https://img.shields.io/badge/ResearchPaper-arXiv%20-b31b1b?logo=arxiv&logoColor=red)](https://arxiv.org/abs/2507.11245) -->
+[![](https://img.shields.io/badge/ResearchPaper-arXiv%20-b31b1b?logo=arxiv&logoColor=red)](https://arxiv.org/abs/2508.07981)
 [![](https://img.shields.io/badge/OmniEffects-Project_Page-blue?logo=googlechrome&logoColor=blue)](https://amap-ml.github.io/Omni-Effects.github.io/)
 [![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20OmniVFX-HuggingFace-yellow)](https://huggingface.co/datasets/GD-ML/Omni-VFX)
 [![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20OmniEffects-HuggingFace-yellow)](https://huggingface.co/GD-ML/Omni-Effects)
@@ -64,3 +64,13 @@ sh scripts/inference_omnieffects_multiVFX.sh
 
 # Acknowledgement
 We would like to thank the authors of [CogVideoX](https://github.com/zai-org/CogVideo), [EasyControl](https://github.com/Xiaojiu-z/EasyControl) for their outstanding work.
+
+# Citation
+@misc{mao2025omnieffects,
+      title={Omni-Effects: Unified and Spatially-Controllable Visual Effects Generation}, 
+      author={Fangyuan Mao and Aiming Hao and Jintao Chen and Dongxia Liu and Xiaokun Feng and Jiashu Zhu and Meiqi Wu and Chubin Chen and Jiahong Wu and Xiangxiang Chu},
+      year={2025},
+      eprint={2508.07981},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
