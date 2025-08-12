@@ -42,7 +42,7 @@ sh scripts/prompt_guided_VFX.sh # modify the prompt and input image
 
 ## SPA-guided spatially controllable VFX
 
-Current SPA-guided spatially controllable VFX supports controllable **"Melt it", "Levitate it", "Explode it", "Turn it into anime style" and "Change the setting to a winter scene"**. We provide corresponding [LoRA](https://huggingface.co/GD-ML/Omni-Effects) based on [CogVideoX-5B-I2V]((https://github.com/zai-org/CogVideo).
+Current SPA-guided spatially controllable VFX supports controllable **"Melt it", "Levitate it", "Explode it", "Turn it into anime style" and "Change the setting to a winter scene"**. We provide corresponding [LoRA](https://huggingface.co/GD-ML/Omni-Effects) based on [CogVideoX-5B-I2V](https://github.com/zai-org/CogVideo).
 
 ### Single-VFX
 ```shell
