@@ -1,6 +1,6 @@
 python scripts/inference_omnieffects.py \
     --model_path "THUDM/CogVideoX-5b-I2V" \
-    --lora_path "checkpoints/singleVFX" \
+    --lora_path "checkpoints/single-VFX" \
     --lora_name "lora_adapter" \
     --output "output" \
     --data_path dataset/test/test1.json \
