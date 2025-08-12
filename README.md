@@ -34,7 +34,7 @@ Download checkpoints from HuggingFace and put it in `checkpoints`.
 
 ## Omni-VFX dataset and prompt-guided VFX
 
-We have released the most comprehensive VFX dataset currently available on HuggingFace. The dataset primarily consists of three sources: assets from Open-VFX dataset, distillations of VFX provided by Remade-AI, and VFX videos created using FLF2V. Due to copyright restrictions, a small portion of the videos cannot be publicly shared. Additionally, we provide the CogVideoX1.5 model, fine-tuned on our Omni-VFX dataset. This model enables prompt-guided VFX video generation. The prompts are refered to `VFX-prompts.txt`.
+We have released the most comprehensive VFX dataset currently available on HuggingFace. The dataset primarily consists of three sources: assets from [Open-VFX dataset](https://arxiv.org/abs/2502.05979), distillations of VFX provided by [Remade-AI](https://huggingface.co/Remade-AI), and VFX videos created using FLF2V. Due to copyright restrictions, a small portion of the videos cannot be publicly shared. Additionally, we provide the CogVideoX1.5 model, fine-tuned on our Omni-VFX dataset. This model enables prompt-guided VFX video generation. The prompts are refered to `VFX-prompts.txt`.
 
 ```shell
 sh scripts/prompt_guided_VFX.sh # modify the prompt and input image
@@ -63,7 +63,7 @@ sh scripts/inference_omnieffects_multiVFX.sh
 </p>
 
 # Acknowledgement
-We would like to thank the authors of [CogVideoX](https://github.com/zai-org/CogVideo), [EasyControl](https://github.com/Xiaojiu-z/EasyControl) for their outstanding work.
+We would like to thank the authors of [CogVideoX](https://github.com/zai-org/CogVideo), [EasyControl](https://github.com/Xiaojiu-z/EasyControl) and [VFXCreator](https://arxiv.org/abs/2502.05979) for their outstanding work.
 
 # Citation
 ```
