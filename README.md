@@ -66,6 +66,7 @@ sh scripts/inference_omnieffects_multiVFX.sh
 We would like to thank the authors of [CogVideoX](https://github.com/zai-org/CogVideo), [EasyControl](https://github.com/Xiaojiu-z/EasyControl) for their outstanding work.
 
 # Citation
+```
 @misc{mao2025omnieffects,
       title={Omni-Effects: Unified and Spatially-Controllable Visual Effects Generation}, 
       author={Fangyuan Mao and Aiming Hao and Jintao Chen and Dongxia Liu and Xiaokun Feng and Jiashu Zhu and Meiqi Wu and Chubin Chen and Jiahong Wu and Xiangxiang Chu},
@@ -74,3 +75,4 @@ We would like to thank the authors of [CogVideoX](https://github.com/zai-org/Cog
       archivePrefix={arXiv},
       primaryClass={cs.CV}
 }
+```
