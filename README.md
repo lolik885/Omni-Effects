@@ -28,13 +28,13 @@ cd Omni-Effects
 conda create -n OmniEffects python=3.10.14
 pip install -r requirements.txt
 ```
-Download checkpoints from HuggingFace and put it in `checkpoints`.
+Download checkpoints from HuggingFace and put them under `checkpoints` folder.
 
 # 🔧 Usage
 
 ## Omni-VFX dataset and prompt-guided VFX
 
-We have released the most comprehensive VFX dataset currently available on HuggingFace. The dataset primarily consists of three sources: assets from [Open-VFX dataset](https://arxiv.org/abs/2502.05979), distillations of VFX provided by [Remade-AI](https://huggingface.co/Remade-AI), and VFX videos created using FLF2V. Due to copyright restrictions, a small portion of the videos cannot be publicly shared. Additionally, we provide the [CogVideoX1.5-5B-I2V-OmniVFX](https://huggingface.co/GD-ML/Omni-Effects), fine-tuned on our Omni-VFX dataset. This model enables prompt-guided VFX video generation. The prompts are refered to `VFX-prompts.txt`.
+We have released the most comprehensive VFX dataset currently available on HuggingFace. The dataset primarily consists of three sources: assets from [Open-VFX dataset](https://arxiv.org/abs/2502.05979), distillations of VFX provided by [Remade-AI](https://huggingface.co/Remade-AI), and VFX videos created using FLF2V. Due to copyright restrictions, a small portion of the videos cannot be publicly shared. Additionally, we provide the [CogVideoX1.5-5B-I2V-OmniVFX](https://huggingface.co/GD-ML/Omni-Effects), fine-tuned on our Omni-VFX dataset. This model enables prompt-guided VFX video generation. The current supported prompts are in `VFX-prompts.txt`.
 
 ```shell
 sh scripts/prompt_guided_VFX.sh # modify the prompt and input image
@@ -42,7 +42,7 @@ sh scripts/prompt_guided_VFX.sh # modify the prompt and input image
 
 ## SPA-guided spatially controllable VFX
 
-Current SPA-guided spatially controllable VFX supports controllable **"Melt it", "Levitate it", "Explode it", "Turn it into anime style" and "Change the setting to a winter scene"**. We provide corresponding [LoRA](https://huggingface.co/GD-ML/Omni-Effects) based on [CogVideoX-5B-I2V](https://github.com/zai-org/CogVideo).
+Current SPA-guided spatially controllable VFX supports controllable **"Melt it", "Levitate it", "Explode it", "Turn it into anime style" and "Change the setting to a winter scene"**. We provide the corresponding [LoRA](https://huggingface.co/GD-ML/Omni-Effects) based on [CogVideoX-5B-I2V](https://github.com/zai-org/CogVideo).
 
 ### Single-VFX
 ```shell
