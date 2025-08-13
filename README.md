@@ -63,7 +63,7 @@ sh scripts/inference_omnieffects_multiVFX.sh
 </p>
 
 # Acknowledgement
-We would like to thank the authors of [CogVideoX](https://github.com/zai-org/CogVideo), [EasyControl](https://github.com/Xiaojiu-z/EasyControl) and [VFXCreator](https://arxiv.org/abs/2502.05979) for their outstanding work.
+We would like to thank the authors of [CogVideoX](https://github.com/zai-org/CogVideo), [EasyControl](https://github.com/Xiaojiu-z/EasyControl), [Switch_Transformers](https://github.com/huggingface/transformers/blob/main/src/transformers/models/switch_transformers) and [VFXCreator](https://arxiv.org/abs/2502.05979) for their outstanding work.
 
 # Citation
 ```
