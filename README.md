@@ -15,30 +15,30 @@
 <table border="0" style="width: 100%; text-align: left; margin-top: 20px;">
   <tr>
       <td>
-          <video src="./assets/pexels-nguyen-khuong-773309378-30836815_spring.mp4" width="100%" controls autoplay loop></video>
+          <video src="https://github.com/user-attachments/assets/2bdbac8e-d6fd-40c8-9910-e7fb636c120e" width="100%" controls autoplay loop></video>
       </td>
       <td>
-          <video src="./assets/pexels-adrienn-638530-1460145_winter.mp4" width="100%" controls autoplay loop></video>
+          <video src="https://github.com/user-attachments/assets/0be9a605-b4ad-4974-abf8-c605e6268fab" width="100%" controls autoplay loop></video>
       </td>
        <td>
-          <video src="./assets/super_saiyan_person1.mp4" width="100%" controls autoplay loop></video>
+          <video src="https://github.com/user-attachments/assets/67af1e4e-73f7-4db2-9c8c-0789a7cbccc2" width="100%" controls autoplay loop></video>
      </td>
       <td>
-          <video src="./assets/transformer_winter.mp4" width="100%" controls autoplay loop></video>
+          <video src="https://github.com/user-attachments/assets/91a0b5db-2293-45bb-88da-7f0748590956" width="100%" controls autoplay loop></video>
      </td>
   </tr>
   <tr>
       <td>
-          <video src="./assets/Levitate_it_Melt_it_anime.mp4" width="100%" controls autoplay loop></video>
+          <video src="https://github.com/user-attachments/assets/8b6f5374-e478-4612-950a-439b092033fb" width="100%" controls autoplay loop></video>
       </td>
       <td>
-          <video src="./assets/pexels-cup-of-couple-7303800_16fps.mp4" width="100%" controls autoplay loop></video>
+          <video src="https://github.com/user-attachments/assets/55ca97b2-1bd4-4ccc-aefb-3c88bce3d778" width="100%" controls autoplay loop></video>
       </td>
        <td>
-          <video src="./assets/pexels-stockphotoartist-1034859_spring_flying.mp4" width="100%" controls autoplay loop></video>
+          <video src="https://github.com/user-attachments/assets/c7565ec1-6dff-441c-aad3-95e259ffe9e5" width="100%" controls autoplay loop></video>
      </td>
       <td>
-          <video src="./assets/pexels-moose-photos-170195-1036627_electrify_fireworks.mp4" width="100%" controls autoplay loop></video>
+          <video src="https://github.com/user-attachments/assets/027fdd11-070b-4aeb-bf81-f035ddae63dc" width="100%" controls autoplay loop></video>
      </td>
   </tr>
 </table>
