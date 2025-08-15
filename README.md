@@ -1,6 +1,5 @@
 # *Omni-Effects*: Unified and Spatially-Controllable Visual Effects Generation
 
-
 [![](https://img.shields.io/badge/ResearchPaper-arXiv%20-b31b1b?logo=arxiv&logoColor=red)](https://arxiv.org/abs/2508.07981)
 [![](https://img.shields.io/badge/OmniEffects-Project_Page-blue?logo=googlechrome&logoColor=blue)](https://amap-ml.github.io/Omni-Effects.github.io/)
 [![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20OmniVFX-HuggingFace-yellow)](https://huggingface.co/datasets/GD-ML/Omni-VFX)
@@ -13,9 +12,37 @@
 
 # 📣 Overview
 
-<p align="center">
-  <img src="./assets/teaser.jpg" width="100%"/>
-</p>
+<table border="0" style="width: 100%; text-align: left; margin-top: 20px;">
+  <tr>
+      <td>
+          <video src="./assets/pexels-nguyen-khuong-773309378-30836815_spring.mp4" width="100%" controls autoplay loop></video>
+      </td>
+      <td>
+          <video src="./assets/pexels-adrienn-638530-1460145_winter.mp4" width="100%" controls autoplay loop></video>
+      </td>
+       <td>
+          <video src="./assets/super_saiyan_person1.mp4" width="100%" controls autoplay loop></video>
+     </td>
+      <td>
+          <video src="./assets/transformer_winter.mp4" width="100%" controls autoplay loop></video>
+     </td>
+  </tr>
+  <tr>
+      <td>
+          <video src="./assets/Levitate_it_Melt_it_anime.mp4" width="100%" controls autoplay loop></video>
+      </td>
+      <td>
+          <video src="./assets/pexels-cup-of-couple-7303800_16fps.mp4" width="100%" controls autoplay loop></video>
+      </td>
+       <td>
+          <video src="./assets/pexels-stockphotoartist-1034859_spring_flying.mp4" width="100%" controls autoplay loop></video>
+     </td>
+      <td>
+          <video src="./assets/pexels-moose-photos-170195-1036627_electrify_fireworks.mp4" width="100%" controls autoplay loop></video>
+     </td>
+  </tr>
+</table>
+
 
 Visual effects (VFX) are essential visual enhancements fundamental to modern cinematic production. Although video generation models offer cost-efficient solutions for VFX production, current methods are constrained by per-effect LoRA training, which limits generation to single effects. This fundamental limitation impedes applications that require spatially controllable composite effects, i.e., the concurrent generation of multiple effects at designated locations. However, integrating diverse effects into a unified framework faces major challenges: interference from effect variations and spatial uncontrollability during multi-VFX joint training. To tackle these challenges, we propose *Omni-Effects*, a first unified framework capable of generating prompt-guided effects and spatially controllable composite effects. The core of our framework comprises two key innovations: (1) **LoRA-based Mixture of Experts (LoRA-MoE)**, which employs a group of expert LoRAs, integrating diverse effects within a unified model while effectively mitigating cross-task interference. (2) **Spatial-Aware Prompt (SAP)** incorporates spatial mask information into the text token, enabling precise spatial control. Furthermore, we introduce an Independent-Information Flow (IIF) module integrated within the SAP, isolating the control signals corresponding to individual effects to prevent any unwanted blending. To facilitate this research, we construct a comprehensive VFX dataset *Omni-VFX* via a novel data collection pipeline combining image editing and First-Last Frame-to-Video (FLF2V) synthesis, and introduce a dedicated VFX evaluation framework for validating model performance. Extensive experiments demonstrate that *Omni-Effects* achieves precise spatial control and diverse effect generation, enabling users to specify both the category and location of desired effects.
 
@@ -28,6 +55,7 @@ cd Omni-Effects
 conda create -n OmniEffects python=3.10.14
 pip install -r requirements.txt
 ```
+
 Download checkpoints from HuggingFace and put them under `checkpoints` folder.
 
 # 🔧 Usage
@@ -45,11 +73,13 @@ sh scripts/prompt_guided_VFX.sh # modify the prompt and input image
 Current SPA-guided spatially controllable VFX supports controllable **"Melt it", "Levitate it", "Explode it", "Turn it into anime style" and "Change the setting to a winter scene"**. We provide the corresponding [LoRA](https://huggingface.co/GD-ML/Omni-Effects) based on [CogVideoX-5B-I2V](https://github.com/zai-org/CogVideo).
 
 ### Single-VFX
+
 ```shell
 sh scripts/inference_omnieffects_singleVFX.sh
 ```
 
 ### Multi-VFX
+
 ```shell
 sh scripts/inference_omnieffects_multiVFX.sh
 ```
@@ -63,9 +93,11 @@ sh scripts/inference_omnieffects_multiVFX.sh
 </p>
 
 # Acknowledgement
+
 We would like to thank the authors of [CogVideoX](https://github.com/zai-org/CogVideo), [EasyControl](https://github.com/Xiaojiu-z/EasyControl), [Switch_Transformers](https://github.com/huggingface/transformers/blob/main/src/transformers/models/switch_transformers) and [VFXCreator](https://arxiv.org/abs/2502.05979) for their outstanding work.
 
 # Citation
+
 ```
 @misc{mao2025omnieffects,
       title={Omni-Effects: Unified and Spatially-Controllable Visual Effects Generation}, 
