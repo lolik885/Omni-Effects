@@ -157,7 +157,7 @@ def generate_video(args):
     for i in tqdm(range(num_to_evaluate)):
         data = datas[i]
         image = load_image(data['file_path'])
-        prompt = prompt = data['text']
+        prompt = data['text']
         cond_image = []
         video_name = "_".join(prompt)
 
