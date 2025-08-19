@@ -3,7 +3,7 @@ python scripts/inference_omnieffects.py \
     --lora_path "checkpoints/multi-VFX" \
     --lora_name "lora_adapter" \
     --output "output" \
-    --data_path dataset/test/test3.json \
+    --data_path dataset/test/test2.json \
     --device_id 0 \
     --cond_linear \
     --num_cond 2 \
